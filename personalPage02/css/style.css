@@ -1,0 +1,26 @@
+body {
+	font-family: arial;
+	color: #2E0854;
+	background: url("../images/blueBackground.jpg");
+}
+
+.container {
+	text-align:center; 
+	background: white;
+	width: 600px;
+	margin: 50px auto;
+	padding: 20px 0;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px dashed black;
+
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+figcaption {
+	font-size: 10px;
+}
