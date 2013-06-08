@@ -1,7 +1,7 @@
 body {
-	font-family: arial;
+	font-family: 'Londrina Solid', cursive;
 	color: #2E0854;
-	background: url("../images/blueBackground.jpg");
+	background: url("../images/backgroundDiamond.png");
 }
 
 .container {
