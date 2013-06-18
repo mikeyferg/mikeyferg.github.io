@@ -3,7 +3,6 @@
 {
 position: relative;
 width: 250px;
-hei ght: 60px;
 padding: 9px;
 background: #FFFFFF;
 border: #7F7F7F solid 2px;
@@ -46,12 +45,17 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container {
 	width: 680px;
 =======
 .container{
 	width: 675px;
 >>>>>>> parent of 8faa680... added font-family
+=======
+.container {
+	width: 680px;
+>>>>>>> 5e693627ee3d357998dfd129ba781334322ffd8b
 	margin: 0 auto;
 	padding-bottom: 100px;
 }
