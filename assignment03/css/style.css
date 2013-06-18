@@ -3,6 +3,7 @@
 {
 position: relative;
 width: 250px;
+hei ght: 60px;
 padding: 9px;
 background: #FFFFFF;
 border: #7F7F7F solid 2px;
@@ -15,7 +16,7 @@ border-radius: 10px;
 {
 content: "";
 position: absolute;
-top: 5px;
+top: 12px;
 left: -8px;
 border-style: solid;
 border-width: 9px 8px 9px 0;
@@ -29,7 +30,7 @@ z-index: 1;
 {
 content: "";
 position: absolute;
-top: 5px;
+top: 11px;
 left: -11px;
 border-style: solid;
 border-width: 10px 9px 10px 0;
@@ -41,16 +42,17 @@ z-index: 0;
 
 
 body {
-	background: #888888;
+  background-color: #eee;
 }
 
 .container{
+<<<<<<< HEAD
 	width: 680px;
+=======
+	width: 675px;
+>>>>>>> parent of 8faa680... added font-family
 	margin: 0 auto;
 	padding-bottom: 100px;
-	padding-left: 35px;
-	padding-right: 35px;
-	padding-top: 10px;
 }
 
 .header {
@@ -91,18 +93,15 @@ body {
 .header .selector ul li {
 	float: left;
 	width: 128px;
-	text-align: center;
 }
 .header .selector ul li:first-child {
+	margin-left: 30px;
 	float: left;
 }
 .header .selector ul li a {
 	text-decoration: none;
 	text-align: center;
 	color: #383838;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	font-size: 12px;
 
 }
 
@@ -145,7 +144,6 @@ body {
 .sideBar .reviewsAll h2 {
 	padding-bottom: 7px;
 	margin-bottom: 10px;
-	font-family: sans-serif;
 }
 
 .sideBar .reviewsAll .reviewsIndividual {
@@ -158,13 +156,10 @@ body {
 	margin-bottom: 10px;
 	width: 180px;
 	float: right;
-	font-family: sans-serif;
-	font-size: 10px;
 }
 
 .sideBar .relatedProducts h2 {
 	margin-top: 20px;
-	font-family: sans-serif;
 }
 
 .sideBar .relatedProducts img {
