@@ -46,11 +46,7 @@ body {
 }
 
 .container{
-<<<<<<< HEAD
 	width: 680px;
-=======
-	width: 675px;
->>>>>>> parent of 8faa680... added font-family
 	margin: 0 auto;
 	padding-bottom: 100px;
 }
