@@ -45,8 +45,13 @@ body {
   background-color: #eee;
 }
 
+<<<<<<< HEAD
+.container {
+	width: 680px;
+=======
 .container{
 	width: 675px;
+>>>>>>> parent of 8faa680... added font-family
 	margin: 0 auto;
 	padding-bottom: 100px;
 }
@@ -70,7 +75,6 @@ body {
 	display: block;
 	margin: 0 auto;
 	padding: 10px 0;
-	
 }
 
 .header .selector {
@@ -115,10 +119,15 @@ body {
 	width: 380px;
 	float: left;
 	padding-right: 15px;
+	padding-left: 5px;
 }
 
 .main .content img {
 	border: 10px solid white;
+ 	-moz-box-shadow:    0px 0px 10px 3px #ccc;
+ 	-webkit-box-shadow: 0px 0px 10px 3px #ccc;
+ 	box-shadow:         0px 0px 10px 3px #ccc;
+
 }
 
 .main .content p {
