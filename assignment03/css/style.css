@@ -3,7 +3,6 @@
 {
 position: relative;
 width: 250px;
-hei ght: 60px;
 padding: 9px;
 background: #FFFFFF;
 border: #7F7F7F solid 2px;
@@ -45,7 +44,7 @@ body {
   background-color: #eee;
 }
 
-.container{
+.container {
 	width: 680px;
 	margin: 0 auto;
 	padding-bottom: 100px;
@@ -70,7 +69,6 @@ body {
 	display: block;
 	margin: 0 auto;
 	padding: 10px 0;
-	
 }
 
 .header .selector {
