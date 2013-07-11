@@ -7,6 +7,10 @@ $(document).ready(function() {
 
 	balance = [100, 1000, 10000];
 
+	$('.balance1').text("Account 1 beginning balance: " + "$" + balance[0]);
+	$('.balance2').text("Account 2 beginning balance: " + "$" + balance[1]);
+	$('.balance3').text("Account 3 beginning balance: " + "$" + balance[2]);
+
 
 	account = prompt("Which account would you like to access: 1, 2, or 3?");
 
@@ -70,7 +74,7 @@ $(document).ready(function() {
 	for (var i = 0; i < 3; i++) {
 		console.log("Your balance for account " + (i + 1) + " " + "is " + "$" + balance[i]);
 		
-		$('p').text('Your balance is ' + balance[i]);
+		$('.balance1').text('Your balance is ' + balance[i]);
 
 
 	}
