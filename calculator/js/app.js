@@ -74,14 +74,15 @@ $(document).ready(function() {
 	for (var i = 0; i < 3; i++) {
 		console.log("Your balance for account " + (i + 1) + " " + "is " + "$" + balance[i]);
 		
+
+
 		$('.balance1').text('Your balance is ' + balance[i]);
 
 
 	}
 
+	// Wait 2 seconds and then say hello
+	setTimeout(function() { alert("hello world"); }, 2000);
 
-
-
-		//$('p').text('Your balance is ' + balance[account-1]);
 
 }); 
