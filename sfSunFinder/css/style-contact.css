@@ -1,0 +1,284 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+body {
+  /* load these off screen for use in swapping the bg image */
+  /* we are doing this to preload the images before they are used */ 
+  background-image: url("../img/background2.jpg") -9999px -9999px;
+  background-image: url("../img/background3.jpg") -9999px -9999px;
+  background-image: url("../img/background4.jpg") -9999px -9999px;
+  background-image: url("../img/background5.jpg") -9999px -9999px;
+  
+  background-image: url("../img/background1.jpg");
+  background-repeat: no-repeat;
+
+
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+/* Begin Header */
+#header {
+	background: pu rple;
+
+}
+
+#socialmedia ul {
+	margin:0;
+	padding:0;
+}
+
+#socialmedia li {
+	display: block;
+	back ground: red;
+	float: right;  
+	height: 60px;
+	width: 60px;
+	margin-left: 20px;
+}
+
+#socialmedia ul li a {
+	display: block;
+	height: 60px;
+	width: 60px;
+
+	/* Image Replacement */
+	text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#socialmedia ul li a.facebook {
+	background: url("../img/facebook.png") no-repeat;
+}
+#socialmedia ul li a.twitter {
+	background: url("../img/twitter.png") no-repeat;
+}
+#socialmedia ul li a.pinterest {
+	background: url("../img/pinterest.png") no-repeat;
+}
+#socialmedia ul li a.email {
+	background: url("../img/email.png") no-repeat;
+}
+#socialmedia ul li a.facebook:hover {
+	background: transparent;
+}
+#socialmedia ul li a.twitter:hover {
+	background: transparent;
+}
+#socialmedia ul li a.pinterest:hover {
+	background: transparent;
+}
+#socialmedia ul li a.email:hover {
+	background: transparent;
+}
+#logo {
+	backgr ound: red;
+}
+
+#logo a {
+	display: block;
+	width: 320px;
+	height: 60px;
+	background: url("../img/logo.png") no-repeat;
+	
+	/*Scott Kellum Image Replacement */
+	text-indent: 200%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#logo a:hover {
+	background: transparent;
+}
+
+#logo h1 {
+	margin:0 0 0 0px;
+}
+/* End Header */
+
+
+
+
+/* Begin Main */
+#main {
+	margin: 150px 0 100px 0;
+	backg round: orange;
+}
+
+#main form.contact {
+	margin: 0 auto;
+	width: 460px;
+	height: 300px;
+	padding: 5px 0px 5px 20px;
+	background: white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#main form.contact label {
+	display: block;
+	width: 300px;
+}
+#main form.contact input, textarea {
+	margin-bottom: 30px;
+	background:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-right: 200px;
+}
+
+input:nth-child(3) {
+	padding-right: 50px;
+}
+
+
+/*#main .hotslogan {
+
+	width: 300px;
+	height: 40px;
+	background: red;
+	margin:0 auto;
+	padding-bottom: 50px;
+
+		/* Image Replacement *
+	text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    background: url("../img/hotslogan1.gif") no-repeat;
+}
+
+
+/* Begin Table 
+
+
+
+
+
+#temperatures table,th,td {
+border:1px solid black;
+}
+
+table {
+	margin: 0 auto;
+	backg round: blue;
+
+}
+
+table td {
+	padding: 15px;
+}
+
+table tr td {
+	width: 80px;
+	background: white;
+}
+
+table tr td:first-child { 
+	width: 300px; 
+}
+
+table th {
+	background: blue;
+}
+
+/* End Table 
+
+#main p.more {
+
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#main .more a {
+	display: block;
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	background: white;
+
+	/* Image Replacement *
+	text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap; 
+
+    background: url("../img/more-button.p");
+}
+
+*/
+
+
+
+
+
+
+/* End Main */
+
+/* Begin Footer */
+
+#footer {
+	bac kground: purple;
+}
+
+#footer ul {
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+#footer li {
+	backgro und: blue;
+	display: block;
+	width: 60px;
+	height: 20px;
+	float: left;
+}
+
+#footer ul li a {
+	display: block;
+	width: 60px;
+	height: 20px;
+	color: white;
+	text-decoration: none;
+}
+#footer ul li a:hover {
+	color: transparent;
+}
+/* End Footer */
+
+
+/* Begin Media Queries */
+@media only screen and (max-width: 753px) {
+	#main {
+	margin-top: 25px;
+	margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 356px) {	
+	#main p,
+	#main h3 {
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 325px) {
+	body {
+		margin-left: 8px;
+		padding-left: 0;
+	}
+}
+
+/* End Media Queries */
