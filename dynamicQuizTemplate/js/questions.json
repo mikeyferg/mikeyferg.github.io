@@ -1,0 +1,42 @@
+{
+   "allQuestions":[
+      {
+         "question":"Who is Prime Minister of the United Kingdom?",
+         "choices":[
+            "David Cameron",
+            "Gordon Brown",
+            "Winston Churchill",
+            "Tony Blair"
+         ],
+         "correctAnswer":0
+      },
+      {
+         "question":"Who is the President of the United States?",
+         "choices":[
+            "George Bush",
+            "Barack Obama",
+            "Tony Blair"
+         ],
+         "correctAnswer":1
+      },
+      {
+         "question":"Who is the Prime Minister of Russia?",
+         "choices":[
+            "Gorbachav",
+            "Stalin",
+            "Putin",
+            "Alexi",
+            "Natalia"
+         ],
+         "correctAnswer":2
+      },
+      {
+         "question":"Final Question?",
+         "choices":[
+            "test1",
+            "test2"
+         ],
+         "correctAnswer":0
+      }
+   ]
+}

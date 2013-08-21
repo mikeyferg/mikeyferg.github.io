@@ -2,22 +2,20 @@
 $(document).ready(function() {
 	//var curr_choices = choices();
 	
-	//loading external JSON test
+//loading external JSON test
 	//var questionsJSON = $.getJSON( "js/questions.json", function() {
 	//	alert( "questions.allQuestions" );
 	//})
-	
-
-
-
-
+	//question();
 	console.log("Current Question number is " + currentQuestion);
 	console.log("Score is " + score);
+	
 	//initial creation of question
 	legend();
 
+
 	//initial creation of answer choices
-	createAnswers();
+/*	createAnswers();
 	
 	//submission click event
 	$('form').on('submit', function(e) {
@@ -84,5 +82,5 @@ $(document).ready(function() {
 		else {
 		 	e.preventDefault();
 		}	
-	});
+	}); */
 });

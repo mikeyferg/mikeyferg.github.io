@@ -20,15 +20,50 @@ var currentQuestion = 0;
 var answer = function() {
 	return ('#answer' + allQuestions[currentQuestion].correctAnswer);
 }
-var question = function() {
+/*var question = function() {
 	return allQuestions[currentQuestion].question;
+} */
+
+/* var question = function() {
+	return myJson
 }
+
+var myJson = $.getJSON( "js/questions.json", function() {
+	alert(success)
+}) */
+
+var question = function() {
+	$.getJSON( "js/questions.json", function(data) {
+		//return  data.allQuestions[currentQuestion].question;
+		//console.log(data);
+		//alert("success!")
+		return (data);
+	})
+} 
+
+
+
 var choicesLength = function() {
 	return allQuestions[currentQuestion]['choices'].length;
 }
+
+
+/* var choicesLength = function() {
+	$.getJSON( "js/questions.json", function() {
+		return questions.allQuestions[currentQuestion]["choices"].length
+	})
+} */
+
 var choices = function() {
 	return allQuestions[currentQuestion].choices;
 }
+
+/*var choices = function() {
+	$.getJSON( "js/questions.json", function() {
+		return questions.allQuestions[currentQuestion].choices
+	})
+} */
+
 
 var removeFields = function() {
 	$('legend').remove();
@@ -64,8 +99,6 @@ var legend = function() {
 		$('fieldset').prepend(legend);
 		$('legend').append(question());
 		$('legend').css({'font-weight': 'bold', 'display': 'none'});
-		//$('legend').slideToggle();
-		//$('legend').animate({width: 'toggle'});
 		$('legend').fadeToggle();
 }
 
