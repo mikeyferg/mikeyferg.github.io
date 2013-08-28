@@ -1,0 +1,30 @@
+body {
+	font-family: 'Londrina Solid', cursive;
+	color: #2E0854;
+	background: url("../images/backgroundDiamond.png");
+}
+
+.container {
+	text-align:center; 
+	background: white;
+	width: 600px;
+	margin: 50px auto;
+	padding: 20px 0;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px dashed black;
+
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+figcaption {
+	font-size: 10px;
+}
+p {
+	color: red;
+	font-family: helvetica;
+}
